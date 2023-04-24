@@ -11,9 +11,10 @@
 <body>
 
     <div class="background">
+
         <header>
             <div class="logo">
-                <i class="fa-regular fa-e"></i>
+                <i class="fa-regular fa-"></i>
             </div><!--logo-->
 
             <div class="cabeçalho-link">
@@ -34,6 +35,12 @@
                 </li>
                 <button onclick="contato(); return false" >Meu Contato</button>
             </div><!--cabeçalho-link-->
+
+            <!--<div class="foto">
+                <img src="img/marcos.png"
+                width="1100px" height="600px"
+                ></div>-->
+
         </header>
 
         <div class="container-text">
@@ -42,15 +49,15 @@
                 <h1>Eu sou <span>Marcos Andrei</span></h1>
                 <p>Tenho 17 anos e atualmente estou no 2° ano do ensino médio<br>estou a procura de uma vaga de emprego na área de TI</p>
                 <div class="redes-social">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin" onclick="linkedin(); return false"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" onclick="twitter(); return false"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" onclick="insta(); return false"></i></a>
+                    <a href="#"><i class="fa-brands fa-github" onclick="github(); return false"></i></a>
                 </div><!--redes-social-->
                 <button class="btn" onclick="logar(); return false" >Sobre Mim</button>
             </div><!--text-->
         </div><!--container-text-->
+
     </div><!--background-->
 
 
@@ -64,6 +71,22 @@
 
         function contato(){
             location.href = "contato.html"
+        }
+
+        function insta(){
+            location.href = "https://instagram.com/marcos.a897?igshid=ZDdkNTZiNTM="
+        }
+
+        function github(){
+            location.href = "https://github.com/MarcosAlmeida17"
+        }
+
+        function linkedin(){
+            location.href = "https://www.linkedin.com/in/marcos-andrei-0190a2266/"
+        }
+
+        function twitter(){
+            location.href = "https://twitter.com/MarcosAndrei897"
         }
 
     </script>
