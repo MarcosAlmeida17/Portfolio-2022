@@ -96,6 +96,11 @@ button:hover{
     margin-top: 10px;
 }
 
+.text h3{
+    color: #fff;
+    font-size: 12px;
+}
+
 .text span{
     color: #04ddfa; 
 }
@@ -126,4 +131,10 @@ button:hover{
         display: none;
     }
     
+}
+
+.foto{
+    position: absolute;
+    bottom: 105px;
+    right: -18px;
 }
